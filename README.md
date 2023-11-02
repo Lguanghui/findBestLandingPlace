@@ -8,6 +8,5 @@
 
 其中，深度图的计算采用 SGBM 法，模板匹配采用 Sobel 算子提取梯度图，使用迭代均值和阈值优化作为约束条件，使用设定好的圆形平坦区域模板在梯度图中进行匹配。
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="assets/record.mp4" type="video/mp4">
-</video>
+https://github.com/Lguanghui/findBestLandingPlace/assets/59787459/db0bcfc9-06a3-4ac9-a67b-c60ed854cdce
+
