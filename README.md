@@ -1,2 +1,13 @@
-# DepInfoApplicationINSiteSelect
-Application of depth information in spacecraft landing site selection
+# 深度信息在飞船降落选址中的应用
+
+本项目是我们大三下学期《计算机视觉》课程的课程设计大作业。
+
+探测器的软着陆过程是天体探测过程中至关重要的一环，许多天体的表面分布着大量的石块、深坑和陡坡等障碍。探测器着陆必须设法避开这些障碍，寻找平坦的区域降落。
+
+针对航天器规避障碍物安全着陆的问题，我们设想了一种利用深度图信息自主选取探测器着陆区域的方法。深度图由双目相机采集，根据深度图获取目标区域表面地形信息，最后利用最大的内接圆框选出探测器最佳降落位置。
+
+其中，深度图的计算采用 SGBM 法，模板匹配采用 Sobel 算子提取梯度图，使用迭代均值和阈值优化作为约束条件，使用设定好的圆形平坦区域模板在梯度图中进行匹配。
+
+<video id="video" controls="" preload="none">
+      <source id="mp4" src="assets/record.mp4" type="video/mp4">
+</video>
